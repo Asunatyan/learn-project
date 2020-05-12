@@ -12,8 +12,8 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>study-2020</name>
 
-    <dependencies>
-
-    </dependencies>
+    <modules>
+        <module>design-pattern</module>
+    </modules>
 
 </project>
