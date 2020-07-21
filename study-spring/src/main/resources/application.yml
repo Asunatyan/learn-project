@@ -1,0 +1,4 @@
+spring:
+  banner:
+    image:
+      location: 666.png
