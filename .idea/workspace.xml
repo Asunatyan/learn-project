@@ -2,19 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8948983-861a-4c79-90c1-7d4dd1610da5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/study-2020/design-pattern/src/main/java/com/example/Interceptor/LocaleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study-2020/design-pattern/src/main/java/com/example/Interceptor/ReqInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study-2020/design-pattern/src/main/java/com/example/Interceptor/USLocalDateFormatter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study-2020/design-pattern/src/main/java/com/example/Interceptor/WebConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study-spring/src/main/resources/666.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study-spring/src/main/resources/banner.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-2020/design-pattern/src/test/java/com/example/designpatter/ModelTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-2020/design-pattern/src/test/java/com/example/designpatter/ModelTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-spring/src/main/java/com/example/studyspring/other/three/Metrics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-spring/src/main/java/com/example/studyspring/other/three/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-spring/src/main/java/com/example/studyspring/other/three/UserVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-spring/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/study-spring/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -53,7 +53,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.studyspring.other.three" />
       <recent name="com.example.Interceptor" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\code\private\github\learn-project\study-spring\src\main\resources" />
@@ -62,10 +66,8 @@
       <recent name="E:\code\private\github\learn-project\study-2020\src\main\java" />
       <recent name="E:\code\private\github\learn-project\study-2020\src\main\java\com\dqk\study\study2020\other\controller" />
     </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.example" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.studyspring.other.one" />
       <recent name="com.example.designpatter" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -89,13 +91,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.OtherCode">
-    <configuration name="OtherCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.studyspring.other.OtherCode" />
+  <component name="RunManager" selected="Application.RandomIdGenerator">
+    <configuration name="RandomIdGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.studyspring.other.one.RandomIdGenerator" />
       <module name="study-spring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.studyspring.other.*" />
+          <option name="PATTERN" value="com.example.studyspring.other.one.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,17 +105,63 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Mytest.testUnmodifiableList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="design-pattern" />
+    <configuration name="StudySpringApplicationTests (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="study-spring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.designpatter.test.*" />
+          <option name="PATTERN" value="com.example.studyspring.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.example.designpatter.test" />
-      <option name="MAIN_CLASS_NAME" value="com.example.designpatter.test.Mytest" />
-      <option name="METHOD_NAME" value="testUnmodifiableList" />
+      <option name="PACKAGE_NAME" value="com.example.studyspring" />
+      <option name="MAIN_CLASS_NAME" value="com.example.studyspring.StudySpringApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudySpringApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="study-spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.studyspring.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.studyspring" />
+      <option name="MAIN_CLASS_NAME" value="com.example.studyspring.StudySpringApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudySpringApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="study-spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.studyspring.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.studyspring" />
+      <option name="MAIN_CLASS_NAME" value="com.example.studyspring.StudySpringApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudySpringApplicationTests.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="study-spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.studyspring.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.studyspring" />
+      <option name="MAIN_CLASS_NAME" value="com.example.studyspring.StudySpringApplicationTests" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -142,8 +190,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.OtherCode" />
-        <item itemvalue="JUnit.Mytest.testUnmodifiableList" />
+        <item itemvalue="Application.RandomIdGenerator" />
+        <item itemvalue="JUnit.StudySpringApplicationTests.test1" />
+        <item itemvalue="JUnit.StudySpringApplicationTests.contextLoads" />
+        <item itemvalue="JUnit.StudySpringApplicationTests (1)" />
+        <item itemvalue="JUnit.StudySpringApplicationTests" />
       </list>
     </recent_temporary>
   </component>
@@ -181,6 +232,10 @@
       <workItem from="1592469924940" duration="10760000" />
       <workItem from="1594095148906" duration="8167000" />
       <workItem from="1594179057483" duration="8003000" />
+      <workItem from="1595296549273" duration="7884000" />
+      <workItem from="1595575095376" duration="5308000" />
+      <workItem from="1595817452775" duration="6676000" />
+      <workItem from="1597920642040" duration="2177000" />
     </task>
     <task id="LOCAL-00001" summary="初始化">
       <created>1589017061504</created>
@@ -203,7 +258,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589248524509</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="封装、抽象、继承、多态">
+      <created>1597920736296</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1597920736296</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
