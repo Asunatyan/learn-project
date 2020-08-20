@@ -1,7 +1,4 @@
-package com.example.studyspring.other;
-
-import java.util.Arrays;
-import java.util.List;
+package com.example.studyspring.other.two;
 
 public class OtherCode {
     public static void main(String[] args) {
