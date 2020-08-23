@@ -13,8 +13,11 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>learn-project</name>
 
+    <packaging>pom</packaging>
+
     <modules>
         <module>study-2020</module>
+        <module>study-spring</module>
     </modules>
 
     <properties>

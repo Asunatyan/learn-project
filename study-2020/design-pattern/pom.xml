@@ -8,9 +8,9 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <groupId>com.dqk.study</groupId>
-    <artifactId>design-patter</artifactId>
+    <artifactId>design-pattern</artifactId>
     <version>${parent.version}</version>
-    <name>design-patter</name>
+    <name>design-pattern</name>
 
     <properties>
         <java.version>1.8</java.version>

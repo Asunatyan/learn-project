@@ -7,10 +7,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="study-2020" />
-        <module name="study-spring" />
-        <module name="learn-project" />
         <module name="design-pattern" />
+        <module name="study-spring" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
