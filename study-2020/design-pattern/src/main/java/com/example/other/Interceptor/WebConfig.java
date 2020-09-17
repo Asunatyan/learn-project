@@ -1,4 +1,4 @@
-package com.example.Interceptor;
+package com.example.other.Interceptor;
 
 import com.alibaba.fastjson.serializer.SerializerFeature;
 import com.alibaba.fastjson.support.config.FastJsonConfig;

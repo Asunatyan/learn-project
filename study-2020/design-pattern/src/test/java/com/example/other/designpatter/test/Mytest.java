@@ -1,8 +1,8 @@
-package com.example.designpatter.test;
+package com.example.other.designpatter.test;
 
-import com.example.designpatter.ModelTests;
-import com.example.designpatter.dto.ShoppingCart;
-import com.example.designpatter.dto.ShoppingCartItem;
+import com.example.other.designpatter.ModelTests;
+import com.example.other.designpatter.dto.ShoppingCart;
+import com.example.other.designpatter.dto.ShoppingCartItem;
 import org.junit.Test;
 
 import java.util.List;

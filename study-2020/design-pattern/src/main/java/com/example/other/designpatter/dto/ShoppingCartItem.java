@@ -1,4 +1,4 @@
-package com.example.designpatter.dto;
+package com.example.other.designpatter.dto;
 
 public class ShoppingCartItem {
         private double price;

@@ -1,4 +1,4 @@
-package com.example.Interceptor;
+package com.example.other.Interceptor;
 
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;

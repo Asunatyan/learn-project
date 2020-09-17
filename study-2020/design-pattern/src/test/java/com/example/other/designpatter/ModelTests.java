@@ -1,4 +1,4 @@
-package com.example.designpatter;
+package com.example.other.designpatter;
 
 import com.example.DesignPatterApplication;
 import org.junit.runner.RunWith;

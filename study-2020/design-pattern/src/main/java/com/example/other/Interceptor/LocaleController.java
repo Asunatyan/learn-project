@@ -1,4 +1,4 @@
-package com.example.Interceptor;
+package com.example.other.Interceptor;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
