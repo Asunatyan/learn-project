@@ -1,4 +1,6 @@
 spring:
   banner:
     image:
-      location: 666.png
+      location: 666.png #设置横幅的路径
+  main:
+    banner-mode: "console" #关闭横幅

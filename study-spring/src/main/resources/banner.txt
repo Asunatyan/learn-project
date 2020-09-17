@@ -1,0 +1,13 @@
+通过将banner.txt文件添加到类路径或将spring.banner.location属性设置为此类文件的位置，可以更改启动时打印的横幅。
+如果文件的编码不是UTF-8，则可以设置spring.banner.charset。
+除了文本文件，您还可以将banner.gif，banner.jpg或banner.png图像文件添加到类路径或设置spring.banner.image.location属性。
+图像将转换为ASCII艺术表示，并打印在任何文本横幅上方。
+
+
+https://www.springcloud.cc/spring-boot.html#boot-features-banner
+应用程序的版本号:   ${application.version}
+应用程序的版本号:   ${application.formatted-version}
+Spring Boot版本:  ${spring-boot.version}
+${spring-boot.formatted-version}
+${Ansi.NAME}
+${application.title}
