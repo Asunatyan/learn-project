@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a8948983-861a-4c79-90c1-7d4dd1610da5" name="Default Changelist" comment="" />
+    <list default="true" id="a8948983-861a-4c79-90c1-7d4dd1610da5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/study-2020/design-pattern/src/main/java/com/example/factory/IRuleConfigParserFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-2020/design-pattern/src/main/java/com/example/factory/OrderOperateStrategyFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-2020/design-pattern/src/main/java/com/example/factory/RuleConfigSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-2020/design-pattern/src/main/java/com/example/factory/RuleConfigSource1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-2020/design-pattern/src/main/java/com/example/factory/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-2020/design-pattern/src/main/java/com/example/prototype/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-2020/design-pattern/src/main/java/com/example/proxy/IUserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-2020/design-pattern/src/main/java/com/example/proxy/MetricsCollector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-2020/design-pattern/src/main/java/com/example/proxy/MetricsCollectorProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-2020/design-pattern/src/main/java/com/example/proxy/RequestInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-2020/design-pattern/src/main/java/com/example/proxy/UserController.java" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,7 +66,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/study-2020/design-pattern/src/main/java/com/example" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/codedesign-master" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -62,6 +75,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.proxy" />
       <recent name="com.example.studyspring.other.three" />
       <recent name="com.example.Interceptor" />
     </key>
@@ -100,7 +114,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.StudySpringApplication">
+  <component name="RunManager" selected="Application.MetricsCollectorProxy">
+    <configuration name="MetricsCollectorProxy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.proxy.MetricsCollectorProxy" />
+      <module name="design-pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.proxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RandomIdGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.studyspring.other.one.RandomIdGenerator" />
       <module name="study-spring" />
@@ -115,21 +142,6 @@
       </method>
     </configuration>
     <configuration name="StudySpringApplicationTests (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="study-spring" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.studyspring.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.studyspring" />
-      <option name="MAIN_CLASS_NAME" value="com.example.studyspring.StudySpringApplicationTests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StudySpringApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="study-spring" />
       <extension name="coverage">
         <pattern>
@@ -199,11 +211,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MetricsCollectorProxy" />
         <item itemvalue="Application.RandomIdGenerator" />
         <item itemvalue="JUnit.StudySpringApplicationTests.test1" />
         <item itemvalue="JUnit.StudySpringApplicationTests.contextLoads" />
         <item itemvalue="JUnit.StudySpringApplicationTests (1)" />
-        <item itemvalue="JUnit.StudySpringApplicationTests" />
       </list>
     </recent_temporary>
   </component>
@@ -260,6 +272,8 @@
       <workItem from="1598081326921" duration="870000" />
       <workItem from="1598082615658" duration="297000" />
       <workItem from="1598083513735" duration="313000" />
+      <workItem from="1600399754818" duration="17288000" />
+      <workItem from="1600650838577" duration="288000" />
     </task>
     <task id="LOCAL-00001" summary="初始化">
       <created>1589017061504</created>
@@ -350,19 +364,39 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/study-2020/design-pattern/src/main/java/com/example/Interceptor/WebConfig.java</url>
+          <url>file://$PROJECT_DIR$/study-2020/design-pattern/src/main/java/com/example/other/Interceptor/WebConfig.java</url>
           <line>33</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/study-2020/design-pattern/src/main/java/com/example/Interceptor/WebConfig.java</url>
+          <url>file://$PROJECT_DIR$/study-2020/design-pattern/src/main/java/com/example/other/Interceptor/WebConfig.java</url>
           <line>42</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/study-2020/design-pattern/src/main/java/com/example/Interceptor/WebConfig.java</url>
+          <url>file://$PROJECT_DIR$/study-2020/design-pattern/src/main/java/com/example/other/Interceptor/WebConfig.java</url>
           <line>56</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/study-2020/design-pattern/src/main/java/com/example/proxy/MetricsCollectorProxy.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/study-2020/design-pattern/src/main/java/com/example/proxy/MetricsCollectorProxy.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/study-2020/design-pattern/src/main/java/com/example/proxy/MetricsCollectorProxy.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/study-2020/design-pattern/src/main/java/com/example/proxy/MetricsCollectorProxy.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
